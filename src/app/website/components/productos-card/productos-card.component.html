@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="card-body">
+    <img [src]="picture" class="card-img-top" alt="Caja">
+    <div class="text-container">
+      <h2 class="card-title">{{ title }}</h2>
+      <p class="card-text">{{ desc }}</p>
+    </div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" [attr.data-bs-target]=" '#productoModal' + id ">Conoce más</button>
+  </div>
+</div>
+
+<app-prod-modal [idModal]="id"
+                [examples]="examples">
+</app-prod-modal>

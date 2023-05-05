@@ -1,0 +1,51 @@
+<section id="inicio" class="container-fluid d-flex align-items-center justify-content-center justify-content-lg-start">
+  <app-hero-card></app-hero-card>
+</section>
+
+<section id="nosotros" class="container-fluid d-flex flex-column">
+  <h1>Nosotros</h1>
+  
+  <div class="container-fluid d-flex flex-grow-1">
+    <div class="container-fluid d-flex align-items-center justify-content-center">
+      <app-nosotros-card></app-nosotros-card>
+    </div>
+  </div>
+</section>
+
+<section id="productos" class="container-fluid d-flex flex-column">
+  <h1>Productos</h1>
+  
+  <div class="container-fluid d-flex flex-grow-1">
+    <div class="container-fluid d-flex flex-row flex-wrap align-items-center justify-content-center">
+
+      <app-productos-card *ngFor="let producto of productos"
+                          [id]="producto.id"
+                          [title]="producto.title"
+                          [picture]="producto.img"
+                          [desc]="producto.description"
+                          [examples]="producto.examples">
+      </app-productos-card>
+      
+    </div>
+  </div>
+</section>
+
+<section id="clientes" class="container-fluid d-flex flex-column">
+  <h1>Clientes</h1>
+
+  <div class="container-fluid d-flex flex-grow-1">
+    <div class="container-fluid d-flex flex-row align-items-center justify-content-center">
+      <app-clientes-carousel></app-clientes-carousel>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="container-fluid d-flex flex-column">
+  <h1>Contácto</h1>
+  
+  <div class="container-fluid d-flex flex-grow-1">
+    <div class="container-fluid d-flex flex-row align-items-center justify-content-center">
+      <app-contacto-form></app-contacto-form>
+    </div>
+  </div>
+</section>

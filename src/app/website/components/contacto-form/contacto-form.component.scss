@@ -1,0 +1,43 @@
+#container-form{
+  padding: 48px 32px;
+  border-radius: 5px;
+  background-color: var(--bs-2nd);
+  color: var(--bs-white);
+
+  .form-control{
+    color: var(--bs-3rd);
+    border: 1px solid var(--bs-1st);
+    border-radius: 5px;
+  }
+
+  .form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgba(34, 34, 51, 0.25);
+  }
+
+  .btn{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    --bs-btn-line-height: 1;
+  }
+
+  .btn:active{
+    box-shadow: var(--bs-1st) 0px 0px 5px 0px, var(--bs-1st) 0px 0px 1px 0px;
+  }
+
+  .btn:disabled{
+    cursor: not-allowed;
+  }
+
+  .btn-primary{
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bs-1st);
+    --bs-btn-hover-bg: var(--bs-3rd);
+    --bs-btn-active-bg: var(--bs-3rd);
+    --bs-btn-active-border-color: var(--bs-3rd);
+    --bs-btn-disabled-bg: var(--bs-1st);
+    --bs-btn-disabled-border-color: var(--bs-1st);
+  }
+}

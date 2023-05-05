@@ -1,0 +1,39 @@
+<div id="container-form" class="container-fluid">
+  <form [formGroup]="miFormulario"
+        (ngSubmit)="enviar()"
+        autocomplete="off">
+
+    <div class="mb-3">
+      <input type="text" name="nombre" class="form-control" placeholder="Nombre" formControlName="nombre">
+      <span class="form-text text-danger"
+            *ngIf="validacion('nombre')">Introducir 3 letras como mínimo.</span>
+    </div>
+  
+    <div class="mb-3">
+      <input type="text" name="empresa" class="form-control" placeholder="Empresa" formControlName="empresa">
+      <span class="form-text text-danger"
+            *ngIf="validacion('empresa')">Introducir 3 letras como mínimo.</span>
+    </div>
+
+    <div class="mb-3">
+      <input type="email" name="email" class="form-control" placeholder="Email" formControlName="email">
+      <span class="form-text text-danger"
+            *ngIf="validacion('email')">Introducir un email válido.</span>
+    </div>
+
+    <div class="mb-3">
+      <input type="text" name="telefono" pattern="^[0-9]+" class="form-control" placeholder="Teléfono" formControlName="telefono">
+      <span class="form-text text-danger"
+            *ngIf="validacion('telefono')">Introducir un teléfono válido.</span>
+    </div>
+
+    <div class="mb-3">
+      <textarea type="text" name="mensaje" class="form-control" cols="30" rows="5" placeholder="Describenos brevemente tus necesidades" formControlName="mensaje"></textarea>
+    </div>
+  
+    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactoModal" [disabled]="!miFormulario.valid">Enviar</button>
+    
+  </form>
+</div>
+
+<app-cont-modal></app-cont-modal>

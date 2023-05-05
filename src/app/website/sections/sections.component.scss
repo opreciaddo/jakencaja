@@ -1,0 +1,39 @@
+section{
+  min-height: 100vh;
+  padding: 56px 0px;
+}
+
+#inicio{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/pictures/heroimage.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+#nosotros{
+  position: relative;
+  background-color: var(--bs-white);
+}
+
+#productos{
+  background-color: var(--bs-lgray);
+}
+
+#clientes{
+  background-color: var(--bs-white);
+}
+
+#contacto{  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/pictures/contacto.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  h1{
+    color: var(--bs-white);
+  }
+}
+
+

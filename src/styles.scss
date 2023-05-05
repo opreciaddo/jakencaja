@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* 
+
+body{
+  background-color: var(--surface-a);
+  font-family: var(--font-family);
+  color: var(--text-color);
+  margin: 0px;
+  overflow-x: hidden;
+}
+*/
+
+:root{
+  --bs-1st: #222233;
+  --bs-2nd: #E2CAA8;
+  --bs-3rd: #B76935;
+  --bs-4th: #4A473E;
+  --bs-5th: #DDA15E;
+  --bs-white: white;
+  --bs-lgray: #EDEDED;
+  --bs-gray: #AAAAAA;
+  --bs-dgray: #3F3F3F;
+  --bs-dark: #000000;
+}
+
+body{
+  font-family: 'Ruda', sans-serif;
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 42px;
+  color: var(--bs-1st);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h2{
+  font-size: 28px;
+}
+
+h3{
+  font-size: 21px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+h5{
+  font-size: 14px;
+}
+
+h6{
+  font-size: 12px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p{
+  color: var(--bs-1st);
+}
+
+.btn-primary{
+  --bs-btn-color: gray;
+}
+
+.btn-close {
+  --bs-btn-close-focus-shadow: null;
+}
+
+/* Disable of arrows on input-number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}

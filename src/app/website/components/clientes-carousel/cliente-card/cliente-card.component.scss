@@ -1,0 +1,32 @@
+:host{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.card{
+  max-width: 270px;
+  color: var(--bs-white);
+  text-align: center;
+  background-color: transparent;
+  --bs-card-border-width: none;
+
+  .card-body{
+    padding: 0px 10px;
+  }
+
+  img{
+    width: calc(126px*1.5);
+    height: calc(112px*1.5);
+    margin-bottom: 32px;
+  }
+
+  .card-title{
+    color: var(--bs-3rd);
+    margin-bottom: 40px;
+  }
+  
+  .card-text{
+    margin-bottom: 16px;
+  }
+}

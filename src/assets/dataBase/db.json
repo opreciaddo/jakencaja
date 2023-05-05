@@ -1,0 +1,110 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "Cajas",
+      "description": "Fabricadas y diseñadas para proteger sus productos.",
+      "img": "../../../../assets/pictures/productos/iconos/caja-icono.webp",
+      "examples":[
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/cajas/caja-ejemplo-1.webp",
+          "desc": "Caja para sector alimenticio."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/cajas/caja-ejemplo-2.webp",
+          "desc": "Caja para sector automotriz."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/cajas/caja-ejemplo-3.webp",
+          "desc": "Caja para sector industrial."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Contenedores",
+      "description": "Se adaptan a tus requisitos específicos de productos empaquetados.",
+      "img": "../../../../assets/pictures/productos/iconos/contenedor-icono.webp",
+      "examples":[
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/contenedores/contenedor-ejemplo-1.webp",
+          "desc": "Contenedor para sector alimenticio."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/contenedores/contenedor-ejemplo-2.webp",
+          "desc": "Contenedor para sector automotriz."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/contenedores/contenedor-ejemplo-3.webp",
+          "desc": "Contenedor para sector industrial."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Rejillas",
+      "description": "Proporcionan una manera eficiente de proteger y organizar tus productos.",
+      "img": "../../../../assets/pictures/productos/iconos/rejilla-icono.webp",
+      "examples":[
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/rejillas/rejilla-ejemplo-1.webp",
+          "desc": "Rejilla para sector alimenticio."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/rejillas/rejilla-ejemplo-2.webp",
+          "desc": "Rejilla para sector automotriz."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/rejillas/rejilla-ejemplo-3.webp",
+          "desc": "Rejilla para sector industrial."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Separadores",
+      "description": "Capa protectora para tus productos, manteniéndolos a salvo de posibles daños.",
+      "img": "../../../../assets/pictures/productos/iconos/separador-icono.webp",
+      "examples":[
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/separadores/separador-ejemplo-1.webp",
+          "desc": "Separador para sector alimenticio."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/separadores/separador-ejemplo-2.webp",
+          "desc": "Separador para sector automotriz."
+        },
+        {
+          "img": "../../../../../../assets/pictures/productos/ejemplos/separadores/separador-ejemplo-3.webp",
+          "desc": "Separador para sector industrial."
+        }
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "title": "Sector Alimenticio",
+      "description": "Algunos de nuestros clientes están en el sector de alimentos.",
+      "img": "../../../../../assets/pictures/clientes/sector-alimentos.webp"
+    },
+    {
+      "id": 2,
+      "title": "Sector Automotriz",
+      "description": "Algunos de nuestros clientes están en el sector de autopartes.",
+      "img": "../../../../../assets/pictures/clientes/sector-autos.webp"
+    },
+    {
+      "id": 3,
+      "title": "Sector Industrial",
+      "description": "Algunos de nuestros clientes están en el sector de industrial.",
+      "img": "../../../../../assets/pictures/clientes/sector-industria.webp"
+    },
+    {
+      "id": 4,
+      "title": "Sector Ecommerce",
+      "description": "Algunos de nuestros clientes están en el sector de ecommerce.",
+      "img": "../../../../../assets/pictures/clientes/sector-ecommerce.webp"
+    }
+  ]
+}
