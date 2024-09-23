@@ -29,7 +29,7 @@ export class ContactoFormComponent {
       return;
     }
     
-    fetch("https://formsubmit.co/ajax/jakencaja@gmail.com", {
+    fetch("https://formsubmit.co/ajax/bea82677a6944f0f09767bccb6206065", {
         method: "POST",
         headers: { 
             'Content-Type': 'application/json',
